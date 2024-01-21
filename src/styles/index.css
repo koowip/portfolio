@@ -33,3 +33,14 @@ input, button, textarea, select {
 p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
+
+a, a:visited, a:active {
+  transition: all 0.3s ease-in-out;
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
