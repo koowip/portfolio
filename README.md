@@ -2,5 +2,5 @@
 
 Built with:
 
--[https://react.dev/] React
--[https://vitejs.dev/] Vite
+-[React](https://react.dev/)
+-[Vite](https://vitejs.dev/) 
