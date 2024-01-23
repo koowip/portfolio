@@ -2,9 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
+.links > a:hover {
+  transition: all 0.3s ease-in-out;
+  color: inherit;
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
 .links {
   display: flex;
   gap: 1em;

@@ -1,8 +1,14 @@
+import '../styles/Footer.css'
+
 export default function Footer () {
 
   return (
     <>
-    <h1>Footer Component</h1>
+      <hr></hr>
+      <div className="footer-box">
+        <span>Patrick White</span>
+        pog
+      </div>
     </>
   )
 }

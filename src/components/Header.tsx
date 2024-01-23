@@ -9,14 +9,15 @@ export default function Header () {
     <div className="header-box">
       <h1>Patrick</h1>
       <div className="links">
-        <a href="https://github.com/koowip">
+        <a href="https://github.com/koowip" target="_blank">
           <FaGithub size={25}/>
         </a>
-        <a href="https://www.linkedin.com/in/patrickdeanwhiteswe/">
+        <a href="https://www.linkedin.com/in/patrickdeanwhiteswe/" target="_blank">
           <FaLinkedin size={25}/>
         </a>
       </div>
     </div>
+    <hr></hr>
     </>
   )
 }

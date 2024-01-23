@@ -1,0 +1,23 @@
+.intro {
+  padding-top: 40px;
+}
+
+.projGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.gridItem {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  
+}
