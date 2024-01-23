@@ -7,11 +7,10 @@ export default function Main () {
       <p className='intro'>
         Hi there, I'm <b>Patrick</b> a 30yr old software developer.
         I enjoy <b>building tools</b> and <b>solving problems</b>.
-        I'm interested in <b>web development</b> and <b>backend architecture</b>. 
-        Outside of work you can find me on the tennis courts or in hammock
+        Outside of work you can find me on the tennis courts or in my hammock
         with a book. 
       </p>
-      <p>Currently I'm sharpening my skills for future employment opportunities.</p>
+      <p className='work'>Currently I'm sharpening my skills for future employment opportunities.</p>
       <h2>Projects</h2>
       <div className='projGrid'>
         <div className='gridItem'>
@@ -27,6 +26,8 @@ export default function Main () {
           <span>Personal site made with Reactjs and Vite</span>
         </div> 
       </div>
+      <h2>Blog</h2>
+        <p className='filler'>Coming soon . . .</p>
     </>
   )
 }

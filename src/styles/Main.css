@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
+  padding-bottom: 50px;
 }
 
 .gridItem {
@@ -13,11 +14,26 @@
   flex-direction: column;
 }
 
-p {
+.gridItem > a{
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  padding-bottom: 10px;
+}
+
+h2 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.intro > p{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-a {
-  
+.work {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.filler {
+  padding-bottom: 250px;
 }

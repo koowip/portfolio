@@ -1,3 +1,5 @@
+import { MdEmail } from "react-icons/md";
+
 import '../styles/Footer.css'
 
 export default function Footer () {
@@ -7,7 +9,9 @@ export default function Footer () {
       <hr></hr>
       <div className="footer-box">
         <span>Patrick White</span>
-        pog
+        <a href="mailto:patrickwhite.swe@gmail.com" target="_self">
+          <MdEmail />
+        </a>
       </div>
     </>
   )
