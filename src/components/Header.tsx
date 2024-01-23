@@ -7,7 +7,7 @@ export default function Header () {
   return (
     <>
     <div className="header-box">
-      <h1>Patrick</h1>
+      <h1 className="rainbow">Patrick</h1>
       <div className="links">
         <a href="https://github.com/koowip" target="_blank">
           <FaGithub size={25}/>
