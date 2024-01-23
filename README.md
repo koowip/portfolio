@@ -1,6 +1,7 @@
-# Patrick White personal site
+## Patrick White personal site
 
-Built with:
+**Built with:**
 
--[React](https://react.dev/)
--[Vite](https://vitejs.dev/) 
+- [React](https://react.dev/)
+- [typescript](https://typescriptlang.org)
+- [Vite](https://vitejs.dev/)
