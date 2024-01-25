@@ -9,3 +9,8 @@
 .horizontal-line {
   opacity: 20%;
 }
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+}
