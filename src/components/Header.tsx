@@ -7,7 +7,7 @@ export default function Header () {
   return (
     <>
     <div className="header-box">
-      <h1>Patrick</h1>
+      <h1 className="gradient-text">k00wip</h1>
       <div className="links">
         <a href="https://github.com/koowip" target="_blank">
           <FaGithub size={25}/>
@@ -17,7 +17,6 @@ export default function Header () {
         </a>
       </div>
     </div>
-    <hr></hr>
     </>
   )
 }

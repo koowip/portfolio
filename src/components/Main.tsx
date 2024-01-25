@@ -1,4 +1,5 @@
 import '../styles/Main.css'
+import Experience from './Experience'
 
 
 export default function Main () {
@@ -6,7 +7,7 @@ export default function Main () {
   return (
     <>
       <p className='intro'>
-        Hi there, I'm <b>Patrick</b> a 30yr old software developer.
+        Hi there, I'm <b>Patrick</b>, aka <b>k00wip</b>. I'm a 30yr old software developer.
         I enjoy <b>building tools</b> and <b>solving problems</b>.
         Outside of work you can find me on the tennis courts or in my hammock
         with a book. 
@@ -39,6 +40,7 @@ export default function Main () {
           <span>Algo implemented in C++, all data structs from scratch</span>
         </div>
       </div>
+      <Experience />
       <h2>Blog</h2>
         <p className='filler'>Coming soon . . .</p>
     </>

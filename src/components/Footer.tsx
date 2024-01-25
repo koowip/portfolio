@@ -7,7 +7,7 @@ export default function Footer () {
 
   return (
     <>
-      <hr></hr>
+      <hr className="horizontal-line"></hr>
       <div className="footer-box">
         <span>Patrick White</span>
         <div className="footer-links">
