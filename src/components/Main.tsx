@@ -1,6 +1,7 @@
 import '../styles/Main.css'
 import Experience from './Experience'
 
+
 export default function Main () {
 
   return (
@@ -25,7 +26,19 @@ export default function Main () {
             Patrick.dev
           </a>
           <span>Personal site made with Reactjs and Vite</span>
-        </div> 
+        </div>
+        <div className='gridItem'>
+          <a href='https://github.com/Hopeland-Systems-Capstone/Hopeland-Systems-API' target='_blank'>
+            Hopeland Systems API
+          </a>
+          <span>Remote sensor API for local climate and geospactial data</span>
+        </div>
+        <div className='gridItem'>
+          <a href='https://github.com/koowip/Dijkstra-Algo-implementation' target='_blank'>
+            Dijkstra's Algo Implementation
+          </a>
+          <span>Algo implemented in C++, all data structs from scratch</span>
+        </div>
       </div>
       <Experience />
       <h2>Blog</h2>
