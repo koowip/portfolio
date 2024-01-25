@@ -13,7 +13,7 @@ export default function Main () {
         with a book. 
       </p>
       <p className='work'>Currently I'm sharpening my skills for future employment opportunities.</p>
-      <h2>Projects</h2>
+      <h2 className='header'>Projects</h2>
       <div className='projGrid'>
         <div className='gridItem'>
           <a href='https://github.com/koowip/airbnbclone' target='_blank'>
@@ -41,7 +41,7 @@ export default function Main () {
         </div>
       </div>
       <Experience />
-      <h2>Blog</h2>
+      <h2 className='header'>Blog</h2>
         <p className='filler'>Coming soon . . .</p>
     </>
   )
